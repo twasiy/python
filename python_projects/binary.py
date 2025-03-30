@@ -1,37 +1,24 @@
-#this function use normal text string to convert into it as a binary code!
+# This function use normal text string to convert into it as a binary code!
+
+def binary_code(data):
+    return " ".join(format(ord(i),'b')for i in data)
+
+print(binary_code('stay out of that girl'))
 
 
-# def binary_code(data):
-#     return " ".join(format(ord(i),'b')for i in data)
-#
-# print(binary_code('stay out of that girl'))
-#
-#
-# #this function use binary code to convert into it as a normal text string!
-# def normal_text(code):
-#     return "".join((chr(int(x,2)))for x in code.split(" "))
-#
-# print(normal_text('1110011 1110100 1100001 1111001 100000 1101111 1110101 1110100 100000 1101111 1100110 100000 1110100 1101000 1100001 1110100 100000 1100111 1101001 1110010 1101100'))
-#
-#
-# #this function get the value of what the output of "binary_code()"return and convert into it as a normal text string!
-# def normal_text(mix):
-#     return "".join((chr(int(x,2)))for x in mix.split(' '))
-#
-# print(normal_text(binary_code('stay out of that girl')))
+#This function use binary code to convert into it as a normal text string!
+def normal_text(code):
+    return "".join((chr(int(x,2)))for x in code.split(" "))
+
+print(normal_text('1110011 1110100 1100001 1111001 100000 1101111 1110101 1110100 100000 1101111 1100110 100000 1110100 1101000 1100001 1110100 100000 1100111 1101001 1110010 1101100'))
 
 
+#This function get the value of what the output of "binary_code()"return and convert into it as a normal text string!
+def normal_text(mix):
+    return "".join((chr(int(x,2)))for x in mix.split(' '))
 
-#This is simple test while I am using c for strcpy and try this function in python.and this time I feel python is more complecated than c.
-# def cpy(source):  # No need for target as a parameter if we're returning a new string
-#     result = ''  # Create a new string to build the copy
-#     for i in range(len(source)):  # Use range() to iterate over indices
-#         result += source[i]  # Append each character to result
-#     return result
-#
-# source = 'hi my name is wasiy'
-# target = cpy(source)  # Assign the result to target
-# print(target)
+print(normal_text(binary_code('stay out of that girl')))
+
 
 
 
