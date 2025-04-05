@@ -18,7 +18,3 @@ def normal_text(mix):
     return "".join((chr(int(x,2)))for x in mix.split(' '))
 
 print(normal_text(binary_code('stay out of that girl')))
-
-
-
-
