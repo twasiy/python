@@ -45,7 +45,7 @@ def text_to_speech(pdf_path, output_mp3="output.mp3"):
 
 
 # Example usage:
-pdf_file = "ethical.pdf"  # Replace with the actual path to your PDF
+pdf_file = "/home/wasiy/Downloads/wasiy.pdf"  # Replace with the actual path to your PDF
 text_to_speech(pdf_file) # Call the function
 # Or specify a different output filename:
 # text_to_speech(pdf_file, "my_audio.mp3")
