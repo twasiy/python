@@ -1,1 +1,1 @@
-# This is my python projects repo
+# This is python basic projects repositories
