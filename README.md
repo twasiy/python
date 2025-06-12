@@ -35,7 +35,7 @@ This collection includes console-based tools, interactive Pygame applications, a
 📦 Dependencies
 Python 3.8+
 Common libraries used:
-pygame
-requests
-json
+pygame,
+requests,
+json,
 os, sys, random, etc.
