@@ -30,7 +30,6 @@ This collection includes console-based tools, interactive Pygame applications, a
    
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-
    
 📦 Dependencies
 Python 3.8+
